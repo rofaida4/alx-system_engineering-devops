@@ -1,2 +1,2 @@
  #!/bin/bash
-ls -map | sort -d
+grep -i ^[a-z] /etc/ssh/sshd_config
